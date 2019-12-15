@@ -1,0 +1,21 @@
+.slide {
+	width: 400px;
+	height: 533px;
+	position: relative;
+	overflow: hidden;
+}
+
+.slide__one, .slide__two {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+.slide__two {
+	right: 50%;
+	filter: grayscale(100%);
+	-webkit-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+}

@@ -1,0 +1,31 @@
+.slider {
+	width: 1014px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.slider__line {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	position: relative;
+	left: 0;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	
+}
+
+.slider__img {
+	margin-right: 4px;
+}
+
+.slider__img:hover {
+	background-size: 150%;
+}
+
+
